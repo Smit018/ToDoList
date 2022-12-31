@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(bodyparser.urlencoded({extended:true}))
 
 
-mongoose.connect("mongodb+srv://admin-smit:Smit%40agrawal2@cluster0.06fjegz.mongodb.net/todolistDB",{useNewUrlParser: true, useUnifiedTopology:true
+mongoose.connect(""mongodb://127.0.0.1/todolistDB"",{useNewUrlParser: true, useUnifiedTopology:true
 }, (err)=>{
 
 if(err)
